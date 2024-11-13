@@ -37,12 +37,39 @@
             ]
         },
         {
-            question: "What is the name of the killer doll in the 'Child's Play' series?",
+            question: "Which actress played Laurie Strode in Halloween?",
             answers: [
-                { text: "Pennywise", correct: false },
-                { text: "Chucky", correct: true },
-                { text: "Annabelle", correct: false },
-                { text: "Slappy", correct: false }
+                { text: "Jamie Lee Curtis", correct: true },
+                { text: "Sigourney Weaver", correct: false },
+                { text: "Neve Campbell", correct: false },
+                { text: "Linda Hamilton", correct: false }
+            ]
+        },
+        {
+            question: "What supernatural power does Carrie have in the movie Carrie?",
+            answers: [
+                { text: "Mind Reading", correct: false },
+                { text: "Telekinesis", correct: true },
+                { text: "Invisibility", correct: false },
+                { text: "Time Travel", correct: false }
+            ]
+        },
+        {
+            question: "Which horror movie features the Necronomicon Ex-Mortis?",
+            answers: [
+                { text: "Hellraiser", correct: false },
+                { text: "The Evil Dead", correct: true },
+                { text: "Pet Sematary", correct: false },
+                { text: "The Craft", correct: false }
+            ]
+        },
+        {
+            question: "What was the original title of The Thing?",
+            answers: [
+                { text: "The Thing from Another World", correct: true },
+                { text: "It Came from Space", correct: false },
+                { text: "The Creature", correct: false },
+                { text: "The Monster", correct: false }
             ]
         }
     ];

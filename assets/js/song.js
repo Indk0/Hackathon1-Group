@@ -35,7 +35,44 @@ const questions = [
             { text: "There Is a Light That Never Goes Out", correct: true },
             { text: "Heaven Knows I'm Miserable Now", correct: false }
         ]
+    },
+    {
+        question: "Which band released the hit song Sweet Child O' Mine?",
+        answers: [
+            { text: "Guns N' Roses", correct: true },
+            { text: "Aerosmith", correct: false },
+            { text: "Bon Jovi", correct: false },
+            { text: "Mötley Crüe", correct: false }
+        ]
+    },
+    {
+        question: "What year was Michael Jackson's Thriller released?",
+        answers: [
+            { text: "1980", correct: false },
+            { text: "1982", correct: true },
+            { text: "1984", correct: false },
+            { text: "1986", correct: false }
+        ]
+    },
+    {
+        question: "Who wrote and first performed the song Respect?",
+        answers: [
+            { text: "Aretha Franklin", correct: false },
+            { text: "Otis Redding", correct: true },
+            { text: "Sam Cooke", correct: false },
+            { text: "Ray Charles", correct: false }
+        ]
+    },
+    {
+        question: "Which Pink Floyd album features the song Another Brick in the Wall?",
+        answers: [
+            { text: "Dark Side of the Moon", correct: false },
+            { text: "The Wall", correct: true },
+            { text: "Wish You Were Here", correct: false },
+            { text: "Animals", correct: false }
+        ]
     }
+    
 ];
 
 let currentQuestion = 0;

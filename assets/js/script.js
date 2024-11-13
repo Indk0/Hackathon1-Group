@@ -35,6 +35,42 @@ const questions = [
             { text: "Canberra", correct: true },
             { text: "Perth", correct: false }
         ]
+    },
+    {
+        question: "What is the capital of South Africa?",
+        answers: [
+            { text: "Cape Town", correct: false },
+            { text: "Pretoria", correct: true },
+            { text: "Johannesburg", correct: false },
+            { text: "Durban", correct: false }
+        ]
+    },
+    {
+        question: "Which city is the capital of Argentina?",
+        answers: [
+            { text: "Buenos Aires", correct: true },
+            { text: "Santiago", correct: false },
+            { text: "Lima", correct: false },
+            { text: "Montevideo", correct: false }
+        ]
+    },
+    {
+        question: "What is the capital of South Korea?",
+        answers: [
+            { text: "Busan", correct: false },
+            { text: "Incheon", correct: false },
+            { text: "Seoul", correct: true },
+            { text: "Daegu", correct: false }
+        ]
+    },
+    {
+        question: "Which city serves as the capital of Morocco?",
+        answers: [
+            { text: "Casablanca", correct: false },
+            { text: "Marrakech", correct: false },
+            { text: "Rabat", correct: true },
+            { text: "Fez", correct: false }
+        ]
     }
 ];
 
