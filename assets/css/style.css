@@ -38,6 +38,13 @@
     flex-shrink: 0;
 }
 
+@media (max-width: 767px) {
+    #home-buttons {
+        flex-direction: column; /* Stack buttons vertically on small screens */
+    }
+}
+
+
 .question {
     font-family: "Reggae One", sans-serif;
     font-size: 2rem;
